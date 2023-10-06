@@ -22,5 +22,5 @@ steps:
     containerregistrytype: 'Azure Container Registry'
     azureSubscription: 'Azure subscription 1(a9401da5-0b33-4b4b-97a9-e1b14107311c)'
     action: 'Build an image'
-    dockerFile: '**/Dockerfile'
+    dockerFile: 'dockerfile'
     imageName: '$(Build.Repository.Name):$(Build.BuildId)'
